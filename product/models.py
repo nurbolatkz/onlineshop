@@ -1,6 +1,8 @@
 from django.db import models
 from shop.models import Shop
 # Create your models here.
+
+
 class ProductCategory(models.Model):
     name = models.CharField(max_length=200)
     description = models.CharField(max_length=200, null=True, blank=True)
